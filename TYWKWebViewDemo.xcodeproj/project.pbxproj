@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6706B0BA20D14D680063633A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6706B0B920D14D680063633A /* AppDelegate.m */; };
+		6706B0BD20D14D680063633A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6706B0BC20D14D680063633A /* ViewController.m */; };
+		6706B0C020D14D680063633A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6706B0BE20D14D680063633A /* Main.storyboard */; };
+		6706B0C220D14D6A0063633A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6706B0C120D14D6A0063633A /* Assets.xcassets */; };
+		6706B0C520D14D6A0063633A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6706B0C320D14D6A0063633A /* LaunchScreen.storyboard */; };
+		6706B0C820D14D6A0063633A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6706B0C720D14D6A0063633A /* main.m */; };
+		6706B0D220D14D6A0063633A /* TYWKWebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6706B0D120D14D6A0063633A /* TYWKWebViewDemoTests.m */; };
+		6706B0DD20D14D6A0063633A /* TYWKWebViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6706B0DC20D14D6A0063633A /* TYWKWebViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6706B0CE20D14D6A0063633A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6706B0AD20D14D680063633A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6706B0B420D14D680063633A;
+			remoteInfo = TYWKWebViewDemo;
+		};
+		6706B0D920D14D6A0063633A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6706B0AD20D14D680063633A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6706B0B420D14D680063633A;
+			remoteInfo = TYWKWebViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6706B0B520D14D680063633A /* TYWKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6706B0B820D14D680063633A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6706B0B920D14D680063633A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6706B0BB20D14D680063633A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6706B0BC20D14D680063633A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6706B0BF20D14D680063633A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6706B0C120D14D6A0063633A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6706B0C420D14D6A0063633A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6706B0C620D14D6A0063633A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6706B0C720D14D6A0063633A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6706B0CD20D14D6A0063633A /* TYWKWebViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWKWebViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6706B0D120D14D6A0063633A /* TYWKWebViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWKWebViewDemoTests.m; sourceTree = "<group>"; };
+		6706B0D320D14D6A0063633A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6706B0D820D14D6A0063633A /* TYWKWebViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWKWebViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6706B0DC20D14D6A0063633A /* TYWKWebViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWKWebViewDemoUITests.m; sourceTree = "<group>"; };
+		6706B0DE20D14D6A0063633A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6706B0B220D14D680063633A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706B0CA20D14D6A0063633A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706B0D520D14D6A0063633A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6706B0AC20D14D680063633A = {
+			isa = PBXGroup;
+			children = (
+				6706B0B720D14D680063633A /* TYWKWebViewDemo */,
+				6706B0D020D14D6A0063633A /* TYWKWebViewDemoTests */,
+				6706B0DB20D14D6A0063633A /* TYWKWebViewDemoUITests */,
+				6706B0B620D14D680063633A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6706B0B620D14D680063633A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6706B0B520D14D680063633A /* TYWKWebViewDemo.app */,
+				6706B0CD20D14D6A0063633A /* TYWKWebViewDemoTests.xctest */,
+				6706B0D820D14D6A0063633A /* TYWKWebViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6706B0B720D14D680063633A /* TYWKWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6706B0B820D14D680063633A /* AppDelegate.h */,
+				6706B0B920D14D680063633A /* AppDelegate.m */,
+				6706B0BB20D14D680063633A /* ViewController.h */,
+				6706B0BC20D14D680063633A /* ViewController.m */,
+				6706B0BE20D14D680063633A /* Main.storyboard */,
+				6706B0C120D14D6A0063633A /* Assets.xcassets */,
+				6706B0C320D14D6A0063633A /* LaunchScreen.storyboard */,
+				6706B0C620D14D6A0063633A /* Info.plist */,
+				6706B0C720D14D6A0063633A /* main.m */,
+			);
+			path = TYWKWebViewDemo;
+			sourceTree = "<group>";
+		};
+		6706B0D020D14D6A0063633A /* TYWKWebViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6706B0D120D14D6A0063633A /* TYWKWebViewDemoTests.m */,
+				6706B0D320D14D6A0063633A /* Info.plist */,
+			);
+			path = TYWKWebViewDemoTests;
+			sourceTree = "<group>";
+		};
+		6706B0DB20D14D6A0063633A /* TYWKWebViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6706B0DC20D14D6A0063633A /* TYWKWebViewDemoUITests.m */,
+				6706B0DE20D14D6A0063633A /* Info.plist */,
+			);
+			path = TYWKWebViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6706B0B420D14D680063633A /* TYWKWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6706B0E120D14D6A0063633A /* Build configuration list for PBXNativeTarget "TYWKWebViewDemo" */;
+			buildPhases = (
+				6706B0B120D14D680063633A /* Sources */,
+				6706B0B220D14D680063633A /* Frameworks */,
+				6706B0B320D14D680063633A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYWKWebViewDemo;
+			productName = TYWKWebViewDemo;
+			productReference = 6706B0B520D14D680063633A /* TYWKWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6706B0CC20D14D6A0063633A /* TYWKWebViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6706B0E420D14D6A0063633A /* Build configuration list for PBXNativeTarget "TYWKWebViewDemoTests" */;
+			buildPhases = (
+				6706B0C920D14D6A0063633A /* Sources */,
+				6706B0CA20D14D6A0063633A /* Frameworks */,
+				6706B0CB20D14D6A0063633A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6706B0CF20D14D6A0063633A /* PBXTargetDependency */,
+			);
+			name = TYWKWebViewDemoTests;
+			productName = TYWKWebViewDemoTests;
+			productReference = 6706B0CD20D14D6A0063633A /* TYWKWebViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6706B0D720D14D6A0063633A /* TYWKWebViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6706B0E720D14D6A0063633A /* Build configuration list for PBXNativeTarget "TYWKWebViewDemoUITests" */;
+			buildPhases = (
+				6706B0D420D14D6A0063633A /* Sources */,
+				6706B0D520D14D6A0063633A /* Frameworks */,
+				6706B0D620D14D6A0063633A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6706B0DA20D14D6A0063633A /* PBXTargetDependency */,
+			);
+			name = TYWKWebViewDemoUITests;
+			productName = TYWKWebViewDemoUITests;
+			productReference = 6706B0D820D14D6A0063633A /* TYWKWebViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6706B0AD20D14D680063633A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = TY;
+				TargetAttributes = {
+					6706B0B420D14D680063633A = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					6706B0CC20D14D6A0063633A = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6706B0B420D14D680063633A;
+					};
+					6706B0D720D14D6A0063633A = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6706B0B420D14D680063633A;
+					};
+				};
+			};
+			buildConfigurationList = 6706B0B020D14D680063633A /* Build configuration list for PBXProject "TYWKWebViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6706B0AC20D14D680063633A;
+			productRefGroup = 6706B0B620D14D680063633A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6706B0B420D14D680063633A /* TYWKWebViewDemo */,
+				6706B0CC20D14D6A0063633A /* TYWKWebViewDemoTests */,
+				6706B0D720D14D6A0063633A /* TYWKWebViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6706B0B320D14D680063633A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6706B0C520D14D6A0063633A /* LaunchScreen.storyboard in Resources */,
+				6706B0C220D14D6A0063633A /* Assets.xcassets in Resources */,
+				6706B0C020D14D680063633A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706B0CB20D14D6A0063633A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706B0D620D14D6A0063633A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6706B0B120D14D680063633A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6706B0BD20D14D680063633A /* ViewController.m in Sources */,
+				6706B0C820D14D6A0063633A /* main.m in Sources */,
+				6706B0BA20D14D680063633A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706B0C920D14D6A0063633A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6706B0D220D14D6A0063633A /* TYWKWebViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6706B0D420D14D6A0063633A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6706B0DD20D14D6A0063633A /* TYWKWebViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6706B0CF20D14D6A0063633A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6706B0B420D14D680063633A /* TYWKWebViewDemo */;
+			targetProxy = 6706B0CE20D14D6A0063633A /* PBXContainerItemProxy */;
+		};
+		6706B0DA20D14D6A0063633A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6706B0B420D14D680063633A /* TYWKWebViewDemo */;
+			targetProxy = 6706B0D920D14D6A0063633A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6706B0BE20D14D680063633A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6706B0BF20D14D680063633A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6706B0C320D14D6A0063633A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6706B0C420D14D6A0063633A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6706B0DF20D14D6A0063633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6706B0E020D14D6A0063633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6706B0E220D14D6A0063633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5BKM6UT38;
+				INFOPLIST_FILE = TYWKWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.love.TYWKWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6706B0E320D14D6A0063633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5BKM6UT38;
+				INFOPLIST_FILE = TYWKWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.love.TYWKWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6706B0E520D14D6A0063633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5BKM6UT38;
+				INFOPLIST_FILE = TYWKWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.love.TYWKWebViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWKWebViewDemo.app/TYWKWebViewDemo";
+			};
+			name = Debug;
+		};
+		6706B0E620D14D6A0063633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5BKM6UT38;
+				INFOPLIST_FILE = TYWKWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.love.TYWKWebViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWKWebViewDemo.app/TYWKWebViewDemo";
+			};
+			name = Release;
+		};
+		6706B0E820D14D6A0063633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5BKM6UT38;
+				INFOPLIST_FILE = TYWKWebViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.love.TYWKWebViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYWKWebViewDemo;
+			};
+			name = Debug;
+		};
+		6706B0E920D14D6A0063633A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5BKM6UT38;
+				INFOPLIST_FILE = TYWKWebViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TY.love.TYWKWebViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYWKWebViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6706B0B020D14D680063633A /* Build configuration list for PBXProject "TYWKWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6706B0DF20D14D6A0063633A /* Debug */,
+				6706B0E020D14D6A0063633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6706B0E120D14D6A0063633A /* Build configuration list for PBXNativeTarget "TYWKWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6706B0E220D14D6A0063633A /* Debug */,
+				6706B0E320D14D6A0063633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6706B0E420D14D6A0063633A /* Build configuration list for PBXNativeTarget "TYWKWebViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6706B0E520D14D6A0063633A /* Debug */,
+				6706B0E620D14D6A0063633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6706B0E720D14D6A0063633A /* Build configuration list for PBXNativeTarget "TYWKWebViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6706B0E820D14D6A0063633A /* Debug */,
+				6706B0E920D14D6A0063633A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6706B0AD20D14D680063633A /* Project object */;
+}
